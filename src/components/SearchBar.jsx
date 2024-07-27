@@ -10,10 +10,15 @@ const SearchBar = () => {
     const navigate = useNavigate();
 
     const onhandleSubmit = (e) => {
+        e.preventDefault();
+        
+        if (searchTerm) {
+            navigate(`/search/${searchTerm}`);
 
-        alert(searchTerm);
+            setSearchTerm('');
+        }
 
-    }
+    };
 
   return (
     <Paper
