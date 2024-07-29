@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+
+import { Stack } from '@mui/material';
+
+import {categories} from "../utils/constants";
 
 const Sidebar = () => {
   return (
     <div>
-        Sidebar
+        Sidebar 
     </div>
   )
 }
