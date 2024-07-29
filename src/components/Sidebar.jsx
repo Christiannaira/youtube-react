@@ -7,7 +7,6 @@ import { Category } from '@mui/icons-material';
 
 const Sidebar = ({selectedCategory, setSelectedCategory}) => {
 
-  console.log(categories);
 
   return (
        <Stack
