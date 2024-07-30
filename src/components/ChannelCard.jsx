@@ -1,10 +1,23 @@
-import React from 'react'
+import React from 'react';
+import { Box, CardContent, CardMedia, Typography } from '@mui/material';
+import CheckCircleIcon from '@mui/icons-material/CheckCircle';
+import { demoProfilePicture } from '../utils/constants';
 
-const ChannelCard = () => {
+const ChannelCard = ({channelDetail}) => {
   return (
-    <div>
-      Channel Card
-    </div>
+      <Box sx={{
+        boxShadow: 'none',
+        borderRadius: '20px',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        width: {xs: '356px', md: '320px'},
+        height: '326px',
+        margin: 'auto',
+      }}>
+
+       hello
+      </Box>
   )
 }
 
